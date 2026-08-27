@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Cookies & Sensitive Account Credentials (STRICT PRIVACY)
+cookies/
+cookies_*.json
+device_identity/
+*.cookie
+*.cookies
+*.session
+saved_cookies*/
+
+# Logs and runtime state data
+matrix_log.csv
+matrix_state.json
+*.log
+
+# MITM network captures (kept only in networklog repo)
+*.mitm
+
+# Environment & IDE
+.env
+.venv
+env/
+venv/
+.vscode/
+.idea/
+.agents/
+.gemini/
